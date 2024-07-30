@@ -1,6 +1,6 @@
 puts "Enter message to encrypt: "
 string = gets.chomp
-puts "Enter shift from alphabet value: "
+puts "Enter number to shift by: "
 shift = gets.chomp.to_i
 def ceasar_cipher(string, shift)
   string = string.downcase
